@@ -1,0 +1,77 @@
+body{
+	background :#111111;
+}
+@media (orientation: portrait) {
+	#container{
+		margin-left: auto;
+		margin-right: auto;
+		width : 320px;
+		height: 480px;
+		background-image: url('../Resources/chrono_portrait.jpg'); 
+	}
+	#infoDisplayContainer{
+		float: left;
+		width: 320px;
+		height: 380px;
+	}
+	#controlsContainer{
+		float: left;
+		width:320px;
+		height: 100px;
+	}
+	#chronoText{
+		font-size: 70px;
+		width: 250px;
+		margin: 150px auto 0px auto;
+	}
+	#startButton{
+		float: left;
+		font-size: 30px;
+		width : 143px;
+		height: 50px;
+		margin-left:10px;
+	}
+	#pauseButton{
+		float:right;
+		font-size:30px;
+		width : 143px;
+		height: 50px;
+		margin-right: 10px;
+	}
+}
+@media (orientation: landscape) {
+	#container{
+		margin-left: auto;
+		margin-right: auto;
+		width : 480px;
+		height: 320px;
+		background-image: url('../Resources/chrono_landscape.jpg'); 
+	}
+	#infoDisplayContainer{
+		float: left;
+		width: 300px;
+		height: 320px;
+	}
+	#controlsContainer{
+		float: right;
+		width: 180px;
+		height: 320px;
+	}
+	#chronoText{
+		font-size: 60px;
+		width: 220px;
+		margin: 110px auto 0 auto;
+	}
+	#startButton{
+		font-size: 30px;
+		width : 143px;
+		height: 50px;
+		margin-top:85px;
+	}
+	#pauseButton{
+		font-size:30px;
+		width : 143px;
+		height: 50px;
+		margin-top: 20px;
+	}
+}
